@@ -28,17 +28,27 @@
 Аналитический отчёт (в формате .pdf или .doc) с изложением результатов проделанной работы.
 
 ### Структура проекта с описанием.
-----------------------------------|----------------------
-data.xlsx                         |  - исходный файл с данными
-cleaned_data.csv                  |  - очищенные данные после предварительной обработки
-eda.ipynb                         |  - исследовательский анализ данных
-feature.ipynb                     |  - работа с признаками, их отбор и инженерия
-                                  |
-regressioncc50.ipynb              |  - модель регрессии для CC50
-regressionic50.ipynb              |  - модель регрессии для IC50
-regressionsi.ipynb                |   - модель регрессии для SI
-                                  |
-classificationcc50median.ipynb    |  - модель классификации для медианы CC50
-classificationic50median.ipynb    |   - модель классификации для медианы IC50
-classificationsimedian.ipynb      |  - модель классификации для медианы SI
-classificationsi8.ipynb           |  - классификация для SI (медиана  8 или экспериментальная?)
+<li>
+data.xlsx                          - исходный файл с данными
+<li>
+cleaned_data.csv                   - очищенные данные после предварительной обработки
+<li>
+eda.ipynb                          - исследовательский анализ данных
+<li>
+feature.ipynb                      - работа с признаками, их отбор и инженерия
+<li>                               
+regressioncc50.ipynb               - модель регрессии для CC50
+<li>
+regressionic50.ipynb               - модель регрессии для IC50
+<li>
+regressionsi.ipynb                 - модель регрессии для SI
+<li>                               
+classificationcc50median.ipynb     - модель классификации для медианы CC50
+<li>
+classificationic50median.ipynb     - модель классификации для медианы IC50
+<li>
+classificationsimedian.ipynb       - модель классификации для медианы SI
+<li>
+classificationsi8.ipynb            - классификация для SI (значение SI>8 )
+<li>
+report.pdf - отчет о проделанной работе
