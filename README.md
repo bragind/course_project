@@ -28,17 +28,17 @@
 Аналитический отчёт (в формате .pdf или .doc) с изложением результатов проделанной работы.
 
 ### Структура проекта с описанием.
-
-data.xlsx                     - исходный файл с данными
-cleaned_data.csv              - очищенные данные после предварительной обработки
-eda.ipynb                     - исследовательский анализ данных
-feature.ipynb                 - работа с признаками, их отбор и инженерия
-
-regressioncc50.ipynb          - модель регрессии для CC50
-regressionic50.ipynb          - модель регрессии для IC50
-regressionsi.ipynb            - модель регрессии для SI
-
-classificationcc50median.ipynb       - модель классификации для медианы CC50
-classificationic50median.ipynb       - модель классификации для медианы IC50
-classificationsimedian.ipynb         - модель классификации для медианы SI
-classificationsi8.ipynb              - классификация для SI (медиана  8 или экспериментальная?)
+----------------------------------|----------------------
+data.xlsx                         |  - исходный файл с данными
+cleaned_data.csv                  |  - очищенные данные после предварительной обработки
+eda.ipynb                         |  - исследовательский анализ данных
+feature.ipynb                     |  - работа с признаками, их отбор и инженерия
+                                  |
+regressioncc50.ipynb              |  - модель регрессии для CC50
+regressionic50.ipynb              |  - модель регрессии для IC50
+regressionsi.ipynb                |   - модель регрессии для SI
+                                  |
+classificationcc50median.ipynb    |  - модель классификации для медианы CC50
+classificationic50median.ipynb    |   - модель классификации для медианы IC50
+classificationsimedian.ipynb      |  - модель классификации для медианы SI
+classificationsi8.ipynb           |  - классификация для SI (медиана  8 или экспериментальная?)
